@@ -1,0 +1,15 @@
+:root {
+  --yellow: #1b45;
+  background-color: black;
+}
+
+div p {
+  color: var(--yellow);
+}
+
+
+@media (prefers-color-scheme:dark) {
+  p {
+    background-color: black;
+  }
+}
